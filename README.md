@@ -26,7 +26,17 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## Requirements
+1) Install mysql (preferably use Xampp).
+2) Install Node.
+3) Globally install the package called nestjs in node.
+4) Use mysql on port 3306, have a user named 'root' and no password.
+
+
+
 ## Installation
+
+Before running the project run the following commands:
 
 ```bash
 $ npm install
@@ -45,18 +55,6 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
 
 ## Support
 
